@@ -1604,3 +1604,28 @@ body {
     line-height: 1.7;
   }
 }
+/* MOBILE HOMEPAGE VIDEO FIX */
+@media (max-width: 700px) {
+  .hero {
+    min-height: 460px;
+    padding: 65px 6% 40px;
+  }
+
+  .hero-video {
+    object-position: center;
+  }
+
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+    line-height: 1.15;
+  }
+
+  .hero-content p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+}
